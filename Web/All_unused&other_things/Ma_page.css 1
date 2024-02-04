@@ -1,0 +1,136 @@
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+  /* Ajoutez ici vos styles personnalisés */
+  body, .container,h1,ul {
+    width: 100%;
+    max-width: auto; /* Vous pouvez ajuster la largeur maximale selon vos préférences */
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+div.a {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding-left: 900px;
+    padding-right: 900px;
+    width: fit-content;
+    
+}
+.b {
+    text-align: left;
+    float: left;
+    width: 33.33%;
+    background-color: #00000000;
+    color: #ffffff;
+    padding: 10px;
+}
+ .c {
+    text-align: right;
+    float: left;
+    width: 33.33%;
+    background-color: #00000000;
+    color: #ffffff;
+    padding: 10px;
+}
+ .d {
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    background-color: #00000000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.e {
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    width: 100%;
+}
+.f {
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 900px;
+    padding-right: 900px;
+    width: fit-content;
+    
+}
+
+.page-header, .page-footer {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 20px 0; /* Ajoutez le padding désiré ici */
+    text-align: center;
+}
+
+.page-header .a, .page-footer .f {
+padding: 0 20px; /* Ajoutez le padding désiré ici */
+}
+form {
+    background-color: #ffffff00;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+    padding: 40px;
+    width: 300px;
+}
+h2 {
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: rgba(17, 17, 17, 0.1);
+    color: rgb(0, 0, 0);
+}
+textarea {
+    height: 100px;
+    resize: none;
+}
+input[type="submit"] {
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid #1be522c6;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #1be522c6;
+}
+.center-btn {
+    text-align: center;
+}

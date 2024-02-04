@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./ssstwitter.com_1706993424812.gif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffffac;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+.section {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    color: #666;
+}
+.info {
+    margin-top: 6px;
+    color: #333;
+}
